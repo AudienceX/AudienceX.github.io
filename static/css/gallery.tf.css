@@ -50,7 +50,7 @@
 
   .image-wrapper {
     margin: 0;
-    border: 1px solid #fff;
+    border: 1px solid #000;
   }
 
   .image-text-wrapper {
@@ -61,7 +61,7 @@
   }
 
   .image-title {
-    transform: scale(0.5);
+    transform: scale(0.8);
     margin: 0%;
     margin-left: 0.2rem;
   }
