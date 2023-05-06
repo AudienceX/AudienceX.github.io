@@ -1,0 +1,58 @@
+.image-container {
+  display: grid;
+  /* 将容器设置为网格布局 */
+  grid-template-columns: repeat(4, 1fr)
+  /* 将容器分成 4 列，并且每列的宽度都为 1fr，即等分可用空间 */
+}
+
+
+.image-wrapper {
+  position: relative;
+  /* 将元素设置为相对定位 */
+  margin: 3px;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+/* 鼠标悬停时添加半透明效果 */
+.image-wrapper:hover {
+  opacity: 0.7; 
+}
+
+.image-text-wrapper {
+  position: absolute;
+  /* 将元素设置为绝对定位 */
+  bottom: 0;
+  /* 将元素定位在父元素的底部 */
+  left: 0;
+  /* 将元素定位在父元素的左边 */
+  right: 0;
+  /* 将元素定位在父元素的右边 */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* 设置元素的背景颜色为半透明黑色 */
+  color: #fff;
+  /* 设置文字颜色为白色 */
+  padding: 2px;
+  /* 上下和左右均添加2像素的内边距 */
+}
+
+
+.image-title {
+  font-size: 14px;
+  /* 设置字体大小为14像素 */
+  font-weight: bold;
+  /* 将字体加粗 */
+  margin-top: 2px;
+  margin-left: 5px;
+  /* 在顶部添加2像素的边距 */
+}
+
+.image-description {
+  font-size: 9px;
+  /* 设置字体大小为9像素 */
+  margin-top: 2px;
+  /* 在顶部添加2像素的边距 */
+  margin-bottom: 2px;
+  margin-left: 5px;
+  /* 在底部添加2像素的边距 */
+}
